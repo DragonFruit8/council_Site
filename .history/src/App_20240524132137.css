@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#messagePopup{
+  position: absolute;
+  bottom: 10%;
+  padding: 1.5rem;
+  max-width: 350px;
+  
+  background-color: #f8d7da;
+
+}
+#navbarNav{
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.navbar-brand{
+  color: black !important;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  margin-left: 0.5rem !important;
+  margin-right: auto !important;
+  justify-self: flex-start !important;
+}
+
+.imgBackground{
+  width: 100% !important;
+  height: 100vh !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  position: relative !important; 
+  background-image: url('/src/img/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg');
+  z-index: 0 !important;
+}
+
+
+/* .parallax::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+} */
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
